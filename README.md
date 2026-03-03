@@ -18,6 +18,12 @@ nvim --version
 scoop install git
 ```
 
+## Install im-select
+```powershell
+scoop bucket add im-select https://github.com/PPKan/im-select
+scoop install im-select
+```
+
 ## Copy the repo
 ```powershell
 git clone https:/github.com/PPKan/nvim.git ~/.config/nvim
