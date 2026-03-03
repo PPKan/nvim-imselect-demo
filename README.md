@@ -20,7 +20,7 @@ scoop install git
 
 ## Copy the repo
 ```powershell
-git clone https://github.com/PPKan/nvim.git ~/.config/nvim
+git clone https:/github.com/PPKan/nvim.git ~/.config/nvim
 ```
 
 ## Install neovim to VSCODE
