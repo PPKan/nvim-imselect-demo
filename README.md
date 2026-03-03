@@ -4,7 +4,7 @@
 https://scoop.sh/
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https:/get.scoop.sh | Invoke-Expression
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
 ## Install Neovim
@@ -20,13 +20,13 @@ scoop install git
 
 ## Install im-select
 ```powershell
-scoop bucket add im-select https:/github.com/daipeihust/im-select
+scoop bucket add im-select https://github.com/daipeihust/im-select
 scoop install im-select
 ```
 
 ## Copy the repo
 ```powershell
-git clone https:/github.com/PPKan/nvim.git ~/.config/nvim
+git clone https://github.com/PPKan/nvim.git $env:localappdata/nvim
 ```
 
 ## Install neovim to VSCODE
