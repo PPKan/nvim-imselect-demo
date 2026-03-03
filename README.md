@@ -20,7 +20,7 @@ scoop install git
 
 ## Install im-select
 ```powershell
-scoop bucket add im-select https://github.com/PPKan/im-select
+scoop bucket add im-select https://github.com/daipeihust/im-select
 scoop install im-select
 ```
 
