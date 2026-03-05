@@ -29,11 +29,5 @@ scoop install im-select
 git clone https://github.com/PPKan/nvim-imselect-demo.git $env:localappdata/nvim
 ```
 
-## neovim LAZY initialization
-```powershell
-nvim
-:Lazy
-```
-
 ## Install neovim to VSCODE
 Just install the neovim extension in VSCODE it will do the work automatically.
